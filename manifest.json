@@ -1,0 +1,37 @@
+{
+  "manifest_version": 3,
+  "name": "GeForce NOW Metacritic Score",
+  "version": "1.0.0",
+  "description": "Displays Metacritic scores on the GeForce NOW games page.",
+  "icons": {
+    "16": "assets/icon-16.png",
+    "32": "assets/icon-32.png",
+    "48": "assets/icon-48.png",
+    "128": "assets/icon-128.png"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "background": {
+    "service_worker": "src/background.js"
+  },
+  "host_permissions": [
+    "https://play.geforcenow.com/*",
+    "https://www.metacritic.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://play.geforcenow.com/*"
+      ],
+      "js": [
+        "src/shared.js",
+        "src/content.js"
+      ],
+      "css": [
+        "src/content.css"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}

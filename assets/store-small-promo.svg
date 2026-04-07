@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 280" role="img" aria-labelledby="title desc">
+  <title id="title">GeForce NOW Metacritic Score small promo</title>
+  <desc id="desc">Promotional image featuring the extension icon and title on a dark green gradient background.</desc>
+  <defs>
+    <linearGradient id="bg" x1="32" y1="20" x2="408" y2="260" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0b1220" />
+      <stop offset="0.55" stop-color="#102519" />
+      <stop offset="1" stop-color="#050a08" />
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#78F85B" stop-opacity="0.35" />
+      <stop offset="1" stop-color="#F0A020" stop-opacity="0.18" />
+    </linearGradient>
+  </defs>
+  <rect width="440" height="280" rx="24" fill="url(#bg)" />
+  <circle cx="378" cy="58" r="92" fill="url(#glow)" />
+  <circle cx="70" cy="232" r="110" fill="#60D94B" opacity="0.08" />
+  <g transform="translate(40 44)">
+    <rect x="0" y="0" width="128" height="128" rx="28" fill="#09110d" />
+    <g transform="translate(0 0)">
+      <g opacity="0.18">
+        <path d="M22 29h84" stroke="#B8FFC9" stroke-width="2" />
+        <path d="M22 45h84" stroke="#B8FFC9" stroke-width="2" />
+        <path d="M22 61h84" stroke="#B8FFC9" stroke-width="2" />
+        <path d="M22 77h84" stroke="#B8FFC9" stroke-width="2" />
+        <path d="M22 93h84" stroke="#B8FFC9" stroke-width="2" />
+        <path d="M30 21v86" stroke="#B8FFC9" stroke-width="2" />
+        <path d="M46 21v86" stroke="#B8FFC9" stroke-width="2" />
+        <path d="M62 21v86" stroke="#B8FFC9" stroke-width="2" />
+        <path d="M78 21v86" stroke="#B8FFC9" stroke-width="2" />
+        <path d="M94 21v86" stroke="#B8FFC9" stroke-width="2" />
+      </g>
+      <rect x="20" y="20" width="58" height="58" rx="16" fill="#0B120E" stroke="#A1FF8D" stroke-width="2.5" />
+      <path d="M33 35h32a3 3 0 0 1 3 3v22a3 3 0 0 1-3 3H33a3 3 0 0 1-3-3V38a3 3 0 0 1 3-3Z" fill="#63DC58" />
+      <path d="M38 31.5h4.5a1.5 1.5 0 0 1 0 3H38a1.5 1.5 0 0 1 0-3Zm17 0h5a1.5 1.5 0 0 1 0 3h-5a1.5 1.5 0 0 1 0-3Z" fill="#C8FFD1" />
+      <circle cx="42.5" cy="49" r="4.5" fill="#0B120E" opacity="0.9" />
+      <circle cx="55.5" cy="49" r="4.5" fill="#0B120E" opacity="0.9" />
+      <path d="M43 58c4.5 3.4 10.5 3.4 15 0" stroke="#0B120E" stroke-linecap="round" stroke-width="3.5" />
+      <circle cx="89" cy="89" r="23" fill="#EEA51A" />
+      <circle cx="89" cy="89" r="20" fill="none" stroke="#FFF5C2" stroke-width="2" opacity="0.65" />
+      <path d="M78.5 89.5 84 95l16-16" fill="none" stroke="#432300" stroke-linecap="round" stroke-linejoin="round" stroke-width="5" />
+    </g>
+  </g>
+  <g fill="#F5FFF7">
+    <text x="192" y="108" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" letter-spacing="0.2">GeForce NOW</text>
+    <text x="192" y="142" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" letter-spacing="0.2">Metacritic Score</text>
+    <text x="192" y="188" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="400" opacity="0.86">Adds reliable Metacritic badges to the GeForce NOW catalog.</text>
+  </g>
+</svg>
