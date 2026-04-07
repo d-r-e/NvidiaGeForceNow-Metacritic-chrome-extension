@@ -1,5 +1,7 @@
 GeForce NOW Metacritic Score is a Manifest V3 Chromium extension that displays Metacritic scores on the GeForce NOW games page for signed-in users.
 
+<img width="1918" height="848" alt="image" src="https://github.com/user-attachments/assets/d6f38cf3-8fef-4441-8288-7e5bd7346115" />
+
 ## What it does
 
 When you open `https://play.geforcenow.com/mall/#/layout/games`, the extension:
