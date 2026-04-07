@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy | GeForce NOW Metacritic Score</title>
+  <meta
+    name="description"
+    content="Privacy Policy for the GeForce NOW Metacritic Score Chrome extension."
+  >
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #eef4ee;
+      --panel: #ffffff;
+      --text: #122018;
+      --muted: #496053;
+      --line: #d9e5db;
+      --accent: #3a9b3f;
+      --accent-strong: #1f6d2a;
+      --shadow: 0 18px 45px rgba(18, 32, 24, 0.08);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Segoe UI", system-ui, sans-serif;
+      background:
+        radial-gradient(circle at top right, rgba(101, 219, 113, 0.2), transparent 28%),
+        linear-gradient(180deg, #f7fbf7 0%, var(--bg) 100%);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    .shell {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 48px 20px 72px;
+    }
+
+    .hero {
+      margin-bottom: 24px;
+      padding: 28px 30px;
+      border: 1px solid rgba(58, 155, 63, 0.16);
+      border-radius: 24px;
+      background:
+        linear-gradient(135deg, rgba(58, 155, 63, 0.12), rgba(255, 199, 92, 0.08)),
+        #f9fcf8;
+      box-shadow: var(--shadow);
+    }
+
+    .eyebrow {
+      display: inline-block;
+      margin-bottom: 10px;
+      padding: 5px 10px;
+      border-radius: 999px;
+      background: rgba(58, 155, 63, 0.12);
+      color: var(--accent-strong);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    h1,
+    h2 {
+      line-height: 1.2;
+      margin: 0 0 12px;
+    }
+
+    h1 {
+      font-size: clamp(2rem, 4vw, 3rem);
+      letter-spacing: -0.03em;
+    }
+
+    h2 {
+      font-size: 1.2rem;
+      margin-top: 0;
+    }
+
+    .subtitle,
+    .updated {
+      color: var(--muted);
+      margin: 0;
+    }
+
+    .updated {
+      margin-top: 12px;
+      font-size: 0.95rem;
+    }
+
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      padding: 26px 24px;
+      box-shadow: var(--shadow);
+      margin-top: 18px;
+    }
+
+    ul {
+      margin: 10px 0 0;
+      padding-left: 22px;
+    }
+
+    li + li {
+      margin-top: 8px;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    p + p {
+      margin-top: 12px;
+    }
+
+    a {
+      color: var(--accent-strong);
+    }
+
+    .summary {
+      display: grid;
+      gap: 12px;
+      margin-top: 18px;
+    }
+
+    .summary-item {
+      padding: 14px 16px;
+      border-radius: 16px;
+      background: #f6faf6;
+      border: 1px solid #e1ece3;
+    }
+
+    .summary-item strong {
+      display: block;
+      margin-bottom: 4px;
+    }
+
+    @media (max-width: 640px) {
+      .shell {
+        padding: 24px 14px 48px;
+      }
+
+      .hero,
+      .panel {
+        padding: 20px 18px;
+        border-radius: 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <section class="hero">
+      <div class="eyebrow">Privacy Policy</div>
+      <h1>GeForce NOW Metacritic Score</h1>
+      <p class="subtitle">
+        This extension displays Metacritic score badges on the GeForce NOW games catalog.
+      </p>
+      <p class="updated">Last updated: April 7, 2026</p>
+      <div class="summary">
+        <div class="summary-item">
+          <strong>No personal data collection</strong>
+          The extension does not collect, sell, or transmit personal data to the developer.
+        </div>
+        <div class="summary-item">
+          <strong>Local cache only</strong>
+          Resolved title matches and scores are stored locally in your browser to reduce repeated lookups.
+        </div>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>What the extension accesses</h2>
+      <ul>
+        <li><code>https://play.geforcenow.com/*</code> to read visible game titles and place score badges in the page UI.</li>
+        <li><code>https://www.metacritic.com/*</code> to request Metacritic search results for those game titles.</li>
+        <li><code>chrome.storage.local</code> to cache resolved matches and scores on your device.</li>
+      </ul>
+    </section>
+
+    <section class="panel">
+      <h2>What information is stored</h2>
+      <p>
+        The extension stores a local cache of normalized game titles, matched Metacritic titles, score values,
+        related search paths, and cache timestamps in your browser. This cache stays on your device and is used
+        only so the extension does not need to repeat the same lookup on every visit.
+      </p>
+    </section>
+
+    <section class="panel">
+      <h2>What the extension does not do</h2>
+      <ul>
+        <li>It does not collect account credentials, payment details, or personal profile information.</li>
+        <li>It does not send analytics, telemetry, or advertising identifiers to the developer.</li>
+        <li>It does not track browsing activity outside the declared host permissions.</li>
+        <li>It does not create remote user profiles or sell data to third parties.</li>
+      </ul>
+    </section>
+
+    <section class="panel">
+      <h2>Third-party requests</h2>
+      <p>
+        When the extension looks up a game score, it makes a request to Metacritic search pages for the game title.
+        Those requests are necessary for the extension to find a matching score. Your use of GeForce NOW and
+        Metacritic remains subject to their own terms and privacy policies.
+      </p>
+    </section>
+
+    <section class="panel">
+      <h2>Changes to this policy</h2>
+      <p>
+        If the extension's data practices change, this page will be updated before or at the same time as the
+        related extension release.
+      </p>
+    </section>
+
+    <section class="panel">
+      <h2>Contact</h2>
+      <p>
+        For questions about this policy or the extension, open an issue at
+        <a href="https://github.com/d-r-e/NvidiaGeForceNow-Metacritic-chrome-extension/issues">the GitHub repository</a>.
+      </p>
+    </section>
+  </main>
+</body>
+</html>
